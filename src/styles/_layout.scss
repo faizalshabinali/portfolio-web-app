@@ -1,15 +1,20 @@
+@import "./variables";
+
 .App {
   .sidebar {
     width: 16%;
     height: 100vh;
-    background-color: #191d2b;
+    background-color: $sidebar;
     position: fixed;
+    border-right: 1px solid $border-color;
   }
 
   .main-content {
     width: 84%;
     margin-left: 16%;
-    background-color: #10121b;
+    background-color: $bg;
     min-height: 100vh;
+    background-image: url(../img/dots.svg);
+    display: grid;
   }
 }
