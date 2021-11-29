@@ -1,0 +1,23 @@
+.ServicesSection {
+    .service {
+        width: 25%;
+        background-color: $sidebar;
+        border-right: 1px solid $border-color;
+        border-left: 1px solid $border-color;
+        border-top: 8px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        transition: all 0.4s ease-in-out;
+        &:hover {
+            border-top: 8px solid $main-blue-color;
+        }
+        .service-content {
+            padding: 1rem;
+            .design_image {
+            }
+            .service-title {
+            }
+            .service-text {
+            }
+        }
+    }
+}

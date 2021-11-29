@@ -6,7 +6,9 @@
     height: 100vh;
     background-color: $sidebar;
     position: fixed;
+    z-index: 11;
     border-right: 1px solid $border-color;
+    transform-origin: left;
   }
 
   .main-content {
