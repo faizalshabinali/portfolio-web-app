@@ -11,13 +11,15 @@
 .hero-text {
     color: f$font-color;
     text-align: center;
-    font-size: 3.6rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
     .hero-name {
         color: $main-blue-color;
     }
 }
 
 .hero-sub-text {
+    font-size: 1.2rem;
     text-align: center;
 }
 

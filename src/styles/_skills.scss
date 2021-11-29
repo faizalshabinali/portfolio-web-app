@@ -1,5 +1,8 @@
 .SkillsSection {
+<<<<<<< HEAD
     // margin: 1rem 0;
+=======
+>>>>>>> 3eddf5adb2ce28c85d094143bf94c023ca9c3074
 }
 
 .skills-container {
@@ -13,13 +16,17 @@
     .skill-bar {
         display: flex;
         align-items: center;
+
         .skill-text {
             font-size: 1.3rem;
             font-weight: 400;
         }
 
         .skill-progress {
+<<<<<<< HEAD
             position: relative;
+=======
+>>>>>>> 3eddf5adb2ce28c85d094143bf94c023ca9c3074
             width: 100%;
             .progress {
                 width: 100%;
