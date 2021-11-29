@@ -28,7 +28,7 @@
 
 .about-details {
     display: flex;
-
+    flex-direction: row;
     p {
         padding: 0.23rem 0;
     }
@@ -63,7 +63,8 @@
     }
 }
 
-.skills-container {
+.skills-containers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5rem;
 }
