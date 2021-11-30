@@ -1,6 +1,6 @@
 .ServicesSection {
     .service {
-        width: 25%;
+        width: 95%;
         background-color: $sidebar;
         border-right: 1px solid $border-color;
         border-left: 1px solid $border-color;
@@ -12,12 +12,39 @@
         }
         .service-content {
             padding: 1rem;
-            .design_image {
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
             }
             .service-title {
+                font-size: 1.5rem;
+                font-weight: 600;
+                position: relative;
+                padding-bottom: 1rem;
+                margin: 1rem 0;
+                &::after {
+                    content: "";
+                    width: 40%;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background-color: $border-color;
+                }
             }
             .service-text {
+                font-size: 1.2rem;
+                line-height: 1.5;
+                margin: 1rem 0;
             }
         }
     }
+}
+
+.services-containers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
 }

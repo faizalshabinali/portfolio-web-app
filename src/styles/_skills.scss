@@ -2,6 +2,7 @@
 }
 
 .skills-container {
+    width: 93%;
     .skill-title {
         font-size: 1.4rem;
         font-weight: 400;
@@ -37,4 +38,12 @@
             }
         }
     }
+}
+
+.skills-containers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 3rem;
+    margin: 2rem 0;
 }

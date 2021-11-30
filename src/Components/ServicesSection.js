@@ -1,16 +1,13 @@
 import React from 'react';
 
-function ServicesSection({ image, title }) {
+function ServicesSection({ image, title, text }) {
   return (
     <div className='ServicesSection'>
       <div className='service'>
         <div className='service-content'>
           <img src={image} alt='design_image' />
           <h5 className='service-title'>{title}</h5>
-          <p className='service-text'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam
-            consequuntur magni temporibus.
-          </p>
+          <p className='service-text'>{text}</p>
         </div>
       </div>
     </div>
