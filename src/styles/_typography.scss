@@ -1,5 +1,3 @@
-@import "./variables";
-
 .HomePage {
     position: absolute;
     top: 50%;
@@ -19,8 +17,10 @@
 }
 
 .hero-sub-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
+    width: 70%;
+    margin: 1rem auto;
 }
 
 .icons {

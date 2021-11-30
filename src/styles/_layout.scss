@@ -6,7 +6,9 @@
     height: 100vh;
     background-color: $sidebar;
     position: fixed;
+    z-index: 11;
     border-right: 1px solid $border-color;
+    transform-origin: left;
   }
 
   .main-content {
@@ -19,7 +21,7 @@
     position: relative;
 
     .content {
-      margin: 5rem 15rem;
+      margin: 0rem 15rem 5rem 15rem;
     }
   }
 }

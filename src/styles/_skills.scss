@@ -1,11 +1,9 @@
 .SkillsSection {
-<<<<<<< HEAD
     // margin: 1rem 0;
-=======
->>>>>>> 3eddf5adb2ce28c85d094143bf94c023ca9c3074
 }
 
 .skills-container {
+    width: 93%;
     margin-top: 1rem;
     .skill-title {
         font-size: 1.4rem;
@@ -23,10 +21,7 @@
         }
 
         .skill-progress {
-<<<<<<< HEAD
             position: relative;
-=======
->>>>>>> 3eddf5adb2ce28c85d094143bf94c023ca9c3074
             width: 100%;
             .progress {
                 width: 100%;
@@ -46,4 +41,12 @@
             }
         }
     }
+}
+
+.skills-containers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 3rem;
+    margin: 2rem 0;
 }

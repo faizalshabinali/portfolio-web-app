@@ -7,7 +7,7 @@ function NavBar() {
     <div className='NavBar'>
       <nav className='nav'>
         <div className='profile'>
-          <img src={avatar} alt='profile-image' />
+          <img src={avatar} alt='profile' />
         </div>
         <ul className='nav-items'>
           <li className='nav-item'>
