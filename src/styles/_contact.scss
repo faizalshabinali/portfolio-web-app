@@ -1,0 +1,40 @@
+.ContactItem {
+    width: 100%;
+    margin: 1rem 0;
+
+    .contact {
+        display: flex;
+        align-items: center;
+        background-color: $sidebar;
+        padding: 1rem 0rem;
+
+        .right-items {
+            margin-left: 2rem;
+        }
+
+        img {
+            padding: 1rem;
+            border: 1px solid $border-color;
+            margin-left: 2rem;
+        }
+    }
+}
+
+.ContactPage {
+    display: flex;
+
+    .map-section {
+        width: 90%;
+        padding: 1rem;
+        background-color: $sidebar;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .contact-section {
+        width: 100%;
+        margin-left: 2rem;
+    }
+}
