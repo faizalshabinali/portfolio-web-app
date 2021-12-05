@@ -9,7 +9,8 @@ function ContactPage() {
   return (
     <>
       <div className='contact-title'>
-        <Title title={'Recent Blogs'} span={'Recent Blogs'} />
+        <Title title={'Contact Me'} span={'Contact Me'} />
+
       </div>
       <div className='ContactPage'>
         <div className='map-section'>
