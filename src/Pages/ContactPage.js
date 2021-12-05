@@ -10,6 +10,7 @@ function ContactPage() {
     <>
       <div className='contact-title'>
         <Title title={'Contact Me'} span={'Contact Me'} />
+
       </div>
       <div className='ContactPage'>
         <div className='map-section'>
