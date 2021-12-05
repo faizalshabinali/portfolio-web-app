@@ -45,6 +45,7 @@
                     padding: 1rem;
                     text-decoration: none;
                     font-family: inherit;
+                    font-size: 1rem;
                     border-radius: 5px;
                     background-color: $main-blue-color;
                     color: white;
@@ -62,7 +63,7 @@
             }
         }
         h5 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-weight: 400;
             color: white;
             transition: all 0.3s ease-in-out;
@@ -84,7 +85,7 @@
 
 .btn-portfolio-categories {
     padding: 0.8rem 2rem;
-    background-color: $main-blue-color;
+    background-color: #0381ff5b;
     color: white;
     border: none;
     outline: none;
@@ -93,12 +94,17 @@
     font-size: 1rem;
     font-family: inherit;
     font-weight: 400;
+    transition: all 0.3s ease-in-out;
     &:not(:last-child) {
         margin-right: 1rem;
     }
     &:hover {
-        background-color: white;
-        color: $main-blue-color;
-        cursor: pointer;
+        background-color: $main-blue-color;
+    }
+    &:active {
+        background-color: $main-blue-color;
+    }
+    &:focus {
+        background-color: $main-blue-color;
     }
 }
