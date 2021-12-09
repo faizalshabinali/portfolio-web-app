@@ -6,12 +6,22 @@ import AboutPage from './Pages/AboutPage';
 import PortfoliosPage from './Pages/PortfoliosPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
+import { useState } from 'react';
 
 function App() {
+  const [navToggle, setNavToggle] = useState(false);
+  const navClick = () => {
+    setNavToggle(!navToggle);
+  };
   return (
     <div className='App'>
-      <div className='sidebar'>
+      <div className={`sidebar ${navToggle ? 'nav-toggle' : ''}`}>
         <NavBar />
+      </div>
+      <div className='nav-button' onClick={navClick}>
+        <div className='line1'></div>
+        <div className='line2'></div>
+        <div className='line3'></div>
       </div>
       <div className='main-content'>
         <div className='content'>
@@ -40,4 +50,4 @@ function App() {
 
 export default App;
 
-// https://youtu.be/ajgxZ5hBSHQ?t=18193
+// https://youtu.be/ajgxZ5hBSHQ?t=19528

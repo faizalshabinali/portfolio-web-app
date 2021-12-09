@@ -7,6 +7,9 @@
         border-top: 8px solid $border-color;
         border-bottom: 1px solid $border-color;
         transition: all 0.4s ease-in-out;
+        @media screen and (max-width: 1400px) {
+            margin: 0.5rem auto;
+        }
         &:hover {
             border-top: 8px solid $main-blue-color;
         }
@@ -47,4 +50,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
+    @media screen and (max-width: 1400px) {
+        flex-direction: column;
+        width: 100%;
+    }
 }

@@ -34,3 +34,9 @@ body::-webkit-scrollbar-track {
 span {
     color: $main-blue-color;
 }
+
+@media screen and (max-width: 411px) {
+    html {
+        font-size: 70%;
+    }
+}
